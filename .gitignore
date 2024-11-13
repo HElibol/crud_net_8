@@ -1,0 +1,30 @@
+
+### 2. `.gitignore` Ýçeriði
+
+ASP.NET Core projelerinde gereksiz dosyalarý hariç tutmak için `.gitignore` dosyasý kullanýlýr. GitHub'ýn `.NET` için önerdiði `.gitignore` içeriðini kullanabilirsiniz:
+
+```plaintext
+# .NET files
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/
+
+# Dotnet pack
+*.nupkg
+*.snupkg
+
+# Other
+appsettings.*.json
+.vs/
